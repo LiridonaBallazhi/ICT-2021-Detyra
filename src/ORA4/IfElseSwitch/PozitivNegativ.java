@@ -4,21 +4,7 @@ import java.util.Scanner;
 
 public class PozitivNegativ {
 
-        /*Scanner teksti = new Scanner(System.in);
-        System.out.print("Shkruaj një tekst: ");
-        String a = teksti.nextLine();  //a->teksti origjinal
 
-        //a.b)Numrin e karaktereve të tekstit
-        String b=a.replaceAll(" ", "");  //b=teksti i ri pa hapësirat
-        System.out.println("Teksti i ri pa hapësira është "+b);
-        System.out.println("Numri i karaktereve të tekstit është "+b.length());
-
-        //b)
-
-       //d) gjej tekstin
-
-
-         */
         public static void main(String[] args) {
             Scanner reader = new Scanner(System.in);
             System.out.println("Shkruaj një numër dhe gjejmë se a është pozitiv apo negativ:");
