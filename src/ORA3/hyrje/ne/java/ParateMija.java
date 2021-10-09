@@ -13,7 +13,7 @@ Shkruaje këtë varg të urdhërave në Java:
  */
     public class ParateMija {
         public static void main(String[] args) {
-            Scanner scan = new Scanner(System.in);
+            Scanner reader = new Scanner(System.in);
             int parate_e_mija = 12 ;
             System.out.println(parate_e_mija);
             parate_e_mija -= 5;
@@ -22,7 +22,9 @@ Shkruaje këtë varg të urdhërave në Java:
             System.out.println(parate_e_mija);
             parate_e_mija = 1;
             System.out.println(parate_e_mija);
-            System.out.println(parate_e_mija);
+            System.out.print("Vendos vlerën e parate_e_mija: ");
+            Double parate_e_mija1=reader.nextDouble();
+
 
         }
     }
