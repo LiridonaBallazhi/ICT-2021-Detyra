@@ -23,6 +23,25 @@ public class VijueshmeriaStudentit {
 
         if (c>=0 && c<50) {
             System.out.printf("%s nuk i plotëson kushtet për provim.", emriMbiemri);
+            System.out.printf("\n-----------------------------------------------------------------");
+
+            Scanner input=new Scanner(System.in);
+            System.out.printf("\nA keni arsye mjekësore që nuk i keni ndjekur ligjëratat?\nShkruaj P(po) dhe J(jo): ");
+            String arsyeMjekesore=input.nextLine();
+            System.out.printf("-------------------------------------------------------------");
+
+            switch(arsyeMjekesore) {
+                case ("P"):
+                    System.out.printf("\nTë lejohet pjesëmarrja në provim.");
+                    break;
+
+                case ("J"):
+                    System.out.printf("\nNuk të lejohet pjesëmarrja në provim.");
+                    break;
+            }
+
+
+
         }
 
         if (c>=50 && c<100) {
@@ -32,7 +51,7 @@ public class VijueshmeriaStudentit {
             System.out.printf("%s plotëson kushtet për provim dhe ka 10 pikë bonus për lëndën.", emriMbiemri);
         }
 
-        System.out.println("\n-------------------------------------------------------------");
+        System.out.printf("\n-------------------------------------------------------------");
 
     }
 }
